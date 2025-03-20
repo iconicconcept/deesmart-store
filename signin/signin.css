@@ -1,0 +1,241 @@
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text2: #ffffff;
+    --text: #193948;
+    --opacity: #397e9f;
+    --black: #000000;
+    --pink: #E76268;
+    --blue: #4FADD0;
+    --yellow: #FCDC73; 
+    --font1: "Roboto", sans-serif;
+    --font2: "Poppins", sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--yellow);
+    font-family: var(--font1);
+    color: var(--text);
+    /* position: relative;
+    overflow-x: hidden; */
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+a:hover{
+    color: var(--text2);
+    text-decoration: underline var(--yellow);
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+    padding: 10px 8%;
+    background-color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    filter: drop-shadow(2px 2px 5px var(--opacity));
+    z-index: 9;
+}
+
+header .bar{
+    display: none;
+}
+
+header .bar .fa-close{
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+header .bar img{
+    background-color: var(--yellow);
+    width: 25px;
+    cursor: pointer;
+}
+
+header .main-logo{ 
+    width:35px;
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 5px;
+    border-radius: 5px;
+} 
+
+.menu-bar{
+    display: none;
+    height: max-content;
+    width: 75%;
+    padding: 50px 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #193948;
+    z-index: 999;
+    color: var(--yellow);
+    position: absolute;
+    right: 47px;
+    top: 90px;
+    filter: drop-shadow(2px 2px 5px var(--opacity));
+    border-radius: 5px;
+}
+
+.menu-bar ul{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.menu-bar li{
+    padding: 20px;
+    list-style: none;
+}
+
+.menu-bar li a{
+    font-size: 20px;
+}
+
+.menu-bar li a:hover{
+    text-decoration: none;
+    background-color: var(--yellow);
+    color: var(--text);
+    padding: 12px 45px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.menu-bar .searchcart{
+    margin-top: 10px;
+}
+
+.menu-bar .searchcart a{
+    text-decoration: none;
+}
+
+.menu-bar .searchcart h3{
+    margin-top: 20px;
+    background-color: var(--yellow);
+    color: var(--text);
+    padding: 12px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-bar .searchcart h3:hover{
+    background-color: var(--text2);
+    color: var(--text);
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font2);
+}
+
+header nav ul{
+    display: flex;
+}   
+
+header nav ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--yellow); 
+}
+
+header nav ul li a:hover{
+    color: var(--text2);
+    text-decoration: underline var(--yellow);
+}
+
+header .others{
+    display: flex;
+}
+
+header .others .fa{
+    padding: 20px;
+    color: var(--yellow);
+}
+
+header .others .fa:hover{
+    color: var(--text2);
+}
+    .container{
+        height: max-content;
+        width: 100%;
+        padding: 130px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--text2);
+    }
+
+    form{
+        padding: 30px 20px;
+        background-color: var(--text);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    form h1{
+        margin-bottom: 20px;
+    }
+
+    form input{
+        margin-bottom: 10px;
+        padding: 7px 10px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    form label{
+        margin-right: 5px;
+    }
+
+    form .label1{
+        margin-right: 20px;
+    }
+
+    form .label2{
+        margin-right: 17px;
+    }
+
+    form span{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    form button{
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--opacity);
+        margin-bottom: 60px;
+    }
+
+    form button:hover{
+        opacity: 80%;
+    }

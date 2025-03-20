@@ -1,0 +1,110 @@
+@media screen (max-width:620px){
+    header{
+        padding: 10px 12%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header  .others{
+        display: none;
+    }
+
+    header .bar{
+        display: flex;
+        color: var(--yellow);
+    }
+
+    header .bar:hover{
+        cursor: pointer;
+    }
+
+    header .bar img{
+        display: flex;
+    }
+
+    header .bar .fa-close{
+        display: none;
+    }
+
+    .menu-bar .searchcart a{
+        text-decoration: none;
+    }
+
+
+    #cartBox{
+        padding: 20px 10px;
+        background-color: var(--yellow);
+        color: var(--text);
+        display: flex;
+        padding: 100px 1px 50px 1px;
+        overflow-wrap: break-word;
+    }
+
+    #cartBox table tr th{
+        text-align: left;
+        padding: 20px 12px;
+        overflow-wrap: break-word;
+    }
+
+    #cartBox table tr td .box h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #cartBox table tr td .box p{
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    #cartBox table tr td .box h3{
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    #cartBox table{
+        width: 100%;
+        margin-inline: 0;
+        border-collapse: collapse;
+    }
+
+    #cartBox table tr td .page img{
+        width: 100px;
+        filter: drop-shadow(1px 1px 2px var(--text2));
+    }
+
+
+    #contact{
+        height: max-content;
+    }
+
+    #contact .container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 50px 10px;
+        grid-gap: 50px
+    }
+
+    #contact .container .contact1{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact2{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact3{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact4{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

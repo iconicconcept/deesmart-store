@@ -1,0 +1,27 @@
+.first{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: rotate3d(360deg);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+.second{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateZ(-500px);
+}
+
+.view{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(100px);
+}
+

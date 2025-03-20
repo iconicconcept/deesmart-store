@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP PAGE</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="./response-signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />     
+</head>
+<body>
+    <header>
+        <img src="../images/d logo.png" alt="logo" class="main-logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../contact/contact.html">Contact-us</a></li>
+            </ul>
+        </nav>
+        <div class="others">
+            <i class="fa fa-search"></i>
+            <a href="../cart/cart.html"><i class="fa fa-cart-plus"></i></a>
+            <a href="../signup/signup.html"><i class="fa fa-user"></i></a>
+        </div> 
+        <div class="bar">
+            <img src="../images/icon-hamburger.svg" alt="">
+            <i class="fa fa-close"></i>
+        </div>
+    </header>
+
+    <div class="menu-bar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="../index.html">Contact-us</a></li>
+        </ul>
+        <div class="searchcart">
+            <h3>Search</h3>
+            <a href="../cart/cart.html"><h3>cart</h3></a>
+            <a href="./signup/signup.html"><h3>SignUp</h3></a>
+        </div>
+    </div> 
+
+    <div class="container">
+        <form id="form" class="form">
+            <h1>Register</h1>
+            <div class="name">
+                <label for="username" class="label1">Name</label>
+                <input type="text" id="name" placeholder="Input your name...">
+                <span id="nameError" style="color: red;"></span>
+            </div>
+            <div class="email">
+                <label for="email" class="label2">Email</label>
+                <input type="email" id="email" placeholder="Input your email...">
+                <span id="emailError" style="color: red;"></span>
+            </div>
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Input your password">
+                <span id="passwordError" style="color: red;"></span>
+            </div>
+            <button class="btn">submit</button>
+
+            <p>Are you a member? Sign in <a href="../signin/signin.html">here</a></p>
+    </div>
+    </form>
+
+    <script src="./signup.js"></script>
+</body>
+</html>

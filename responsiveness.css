@@ -1,0 +1,238 @@
+@media(max-width:620px){
+    header{
+        padding: 10px 12%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header  .others{
+        display: none;
+    }
+
+    header .bar{
+        display: flex;
+        color: var(--yellow);
+    }
+
+    header .bar img{
+        display: flex;
+    }
+
+    header .bar .fa-close{
+        display: none;
+    }
+
+    .menu-bar .searchcart a{
+        text-decoration: none;
+    }
+
+    #home{
+        height: max-content;
+        padding: 130px 18px 50px 18px;
+    }
+
+    #home .container{
+        width: 329px;
+    }
+
+    #home .container .home1{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* #home .container .home1-box{
+        margin-bottom: 30px;
+    } */
+
+    #home .container .home1-box p{
+        font-size: 15px;
+    }
+
+    #home .container .home1-box h2{
+    font-size: 32px;
+    }
+
+    #home .container .home1 button{
+        margin-top: 17px;
+        align-self: center;
+    }
+
+    #home .container .home1 .laptop{
+        margin-top: 50px;
+        width: 230px;
+    }
+
+    #home .container .home2{
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* #home .container .home2-box{
+        margin-bottom: 30px;
+    } */
+
+    #home .container .home2-box p{
+        font-size: 15px;
+    }
+
+    #home .container .home2-box h2{
+    font-size: 32px;
+    }
+
+    #home .container .home2 button{
+        margin-top: 17px;
+        align-self: center;
+    }
+
+    #home .container .home2 .smartphone{
+        margin-top: 50px;
+        width: 230px;
+    }
+
+    #home .container .home3{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* #home .container .home3-box{
+        margin-bottom: 30px;
+    } */
+
+    #home .container .home3-box p{
+        font-size: 15px;
+    }
+
+    #home .container .home3-box h2{
+    font-size: 32px;
+    }
+
+    #home .container .home3 button{
+        margin-top: 17px;
+        align-self: center;
+    }
+
+    #home .container .home3 .cctv{
+        width: 230px;
+    }
+
+    #home .fa-greater-than{
+        margin-left: 10px;
+    }
+
+    #home .fa-less-than{
+        margin-right: 10px;
+    }
+
+    #product{
+        height: 50vh;
+    }
+
+    #product .scroller{
+        gap: 10px;
+    }
+
+     #product .container .page{
+        height: 220px;
+        width: 220px;
+    }
+
+     #product .container .page img{
+        width: 150px;
+    }
+    
+     #product .container .page .img2{
+        width: 130px;
+    }
+    
+    #product .container .page .img3{
+        border-radius: 5px;
+    }
+    
+    #product .container .page .img5{
+        background-color: var(--text2);
+        border-radius: 5px;
+    }
+
+    /* #product .container{
+        padding: 20px 1800px 20px 2000px;
+    } */
+
+    #category{
+        height: max-content;
+    }
+
+    #category .contain h2{
+        font-size: 35px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #category .contain{
+        padding: 60px;
+    }
+    
+    #category .contain .container{
+        grid-template-columns: 1fr;
+        padding: 70px 10px 20px 10px;
+    }
+
+    #category .contain .container .coin{
+        margin-bottom: 20px;
+    }
+
+    #email{
+        height: max-content;
+        padding: 60px 15px;
+    }
+
+    #email .container{
+        padding: 0;
+        text-align: center;
+    }
+
+    #email .container input{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    #contact{
+        height: max-content;
+    }
+
+    #contact .container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 50px 10px;
+        grid-gap: 50px
+    }
+
+    #contact .container .contact1{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact2{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact3{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact4{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

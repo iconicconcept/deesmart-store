@@ -1,0 +1,93 @@
+@media(max-width:620px){
+    header{
+        padding: 10px 12%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header  .others{
+        display: none;
+    }
+
+    header .bar{
+        display: flex;
+        color: var(--yellow);
+    }
+
+    header .bar img{
+        display: flex;
+    }
+
+    header .bar img:hover{
+        cursor: pointer;
+    }
+
+    header .bar .fa-close{
+        display: none;
+    }
+
+    .menu-bar .searchcart a{
+        text-decoration: none;
+    }
+
+
+    #contactbox{
+        height: max-content;
+    }
+
+    #contactbox .container .phone{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #suggestion{
+        height: max-content;
+        padding: 60px 15px;
+    }
+
+    #suggestion .container{
+        padding: 0;
+        text-align: center;
+    }
+
+    #suggestion .container input{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    #contact{
+        height: max-content;
+    }
+
+    #contact .container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 50px 10px;
+        grid-gap: 50px
+    }
+
+    #contact .container .contact1{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact2{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact3{
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .container .contact4{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
